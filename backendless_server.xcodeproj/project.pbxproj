@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B8195C9B84D82A99EB95CFB /* Pods_backendless_serverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A484024E77C8E8FF2F4ABC /* Pods_backendless_serverTests.framework */; };
+		3D3C079A290A195FE6AE35D4 /* Pods_backendless_serverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1AE9740349C23C3984636F /* Pods_backendless_serverUITests.framework */; };
+		5B548FA52009D88900C895D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B548FA42009D88900C895D6 /* AppDelegate.swift */; };
+		5B548FA72009D88A00C895D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B548FA62009D88A00C895D6 /* ViewController.swift */; };
+		5B548FAA2009D88A00C895D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B548FA82009D88A00C895D6 /* Main.storyboard */; };
+		5B548FAC2009D88B00C895D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B548FAB2009D88B00C895D6 /* Assets.xcassets */; };
+		5B548FAF2009D88B00C895D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B548FAD2009D88B00C895D6 /* LaunchScreen.storyboard */; };
+		5B548FBA2009D88E00C895D6 /* backendless_serverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B548FB92009D88E00C895D6 /* backendless_serverTests.swift */; };
+		5B548FC52009D88F00C895D6 /* backendless_serverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B548FC42009D88F00C895D6 /* backendless_serverUITests.swift */; };
+		5B548FD32009FF3C00C895D6 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B548FD22009FF3C00C895D6 /* UpdateViewController.swift */; };
+		872F49B8F535486E090A56F0 /* Pods_backendless_server.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2846CD01292F659868199DCD /* Pods_backendless_server.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B548FB62009D88E00C895D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B548F992009D88800C895D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B548FA02009D88900C895D6;
+			remoteInfo = backendless_server;
+		};
+		5B548FC12009D88F00C895D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B548F992009D88800C895D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B548FA02009D88900C895D6;
+			remoteInfo = backendless_server;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2846CD01292F659868199DCD /* Pods_backendless_server.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_backendless_server.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43297AF3E447311ACBFFFF67 /* Pods-backendless_serverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backendless_serverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-backendless_serverTests/Pods-backendless_serverTests.release.xcconfig"; sourceTree = "<group>"; };
+		451EAE303CFBD7A2198644F6 /* Pods-backendless_serverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backendless_serverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-backendless_serverTests/Pods-backendless_serverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		481056A3F34430972411CE33 /* Pods-backendless_serverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backendless_serverUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-backendless_serverUITests/Pods-backendless_serverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EC45E6A74344B020DE3CE0A /* Pods-backendless_server.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backendless_server.release.xcconfig"; path = "Pods/Target Support Files/Pods-backendless_server/Pods-backendless_server.release.xcconfig"; sourceTree = "<group>"; };
+		5B548FA12009D88900C895D6 /* backendless_server.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = backendless_server.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B548FA42009D88900C895D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B548FA62009D88A00C895D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B548FA92009D88A00C895D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B548FAB2009D88B00C895D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B548FAE2009D88B00C895D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B548FB02009D88B00C895D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B548FB52009D88E00C895D6 /* backendless_serverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backendless_serverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B548FB92009D88E00C895D6 /* backendless_serverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backendless_serverTests.swift; sourceTree = "<group>"; };
+		5B548FBB2009D88F00C895D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B548FC02009D88F00C895D6 /* backendless_serverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backendless_serverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B548FC42009D88F00C895D6 /* backendless_serverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backendless_serverUITests.swift; sourceTree = "<group>"; };
+		5B548FC62009D88F00C895D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B548FD22009FF3C00C895D6 /* UpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		76A484024E77C8E8FF2F4ABC /* Pods_backendless_serverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_backendless_serverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8317205845553E22617C8528 /* Pods-backendless_server.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backendless_server.debug.xcconfig"; path = "Pods/Target Support Files/Pods-backendless_server/Pods-backendless_server.debug.xcconfig"; sourceTree = "<group>"; };
+		A7C02F879F7052890FF10357 /* Pods-backendless_serverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backendless_serverUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-backendless_serverUITests/Pods-backendless_serverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE1AE9740349C23C3984636F /* Pods_backendless_serverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_backendless_serverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B548F9E2009D88900C895D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872F49B8F535486E090A56F0 /* Pods_backendless_server.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B548FB22009D88E00C895D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8195C9B84D82A99EB95CFB /* Pods_backendless_serverTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B548FBD2009D88F00C895D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3C079A290A195FE6AE35D4 /* Pods_backendless_serverUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B548F982009D88800C895D6 = {
+			isa = PBXGroup;
+			children = (
+				5B548FA32009D88900C895D6 /* backendless_server */,
+				5B548FB82009D88E00C895D6 /* backendless_serverTests */,
+				5B548FC32009D88F00C895D6 /* backendless_serverUITests */,
+				5B548FA22009D88900C895D6 /* Products */,
+				949081CE6CB1BE86F7B068CF /* Pods */,
+				6166FD2DDF1BCF9A4993590D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B548FA22009D88900C895D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B548FA12009D88900C895D6 /* backendless_server.app */,
+				5B548FB52009D88E00C895D6 /* backendless_serverTests.xctest */,
+				5B548FC02009D88F00C895D6 /* backendless_serverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B548FA32009D88900C895D6 /* backendless_server */ = {
+			isa = PBXGroup;
+			children = (
+				5B548FA42009D88900C895D6 /* AppDelegate.swift */,
+				5B548FA62009D88A00C895D6 /* ViewController.swift */,
+				5B548FD22009FF3C00C895D6 /* UpdateViewController.swift */,
+				5B548FA82009D88A00C895D6 /* Main.storyboard */,
+				5B548FAB2009D88B00C895D6 /* Assets.xcassets */,
+				5B548FAD2009D88B00C895D6 /* LaunchScreen.storyboard */,
+				5B548FB02009D88B00C895D6 /* Info.plist */,
+			);
+			path = backendless_server;
+			sourceTree = "<group>";
+		};
+		5B548FB82009D88E00C895D6 /* backendless_serverTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B548FB92009D88E00C895D6 /* backendless_serverTests.swift */,
+				5B548FBB2009D88F00C895D6 /* Info.plist */,
+			);
+			path = backendless_serverTests;
+			sourceTree = "<group>";
+		};
+		5B548FC32009D88F00C895D6 /* backendless_serverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B548FC42009D88F00C895D6 /* backendless_serverUITests.swift */,
+				5B548FC62009D88F00C895D6 /* Info.plist */,
+			);
+			path = backendless_serverUITests;
+			sourceTree = "<group>";
+		};
+		6166FD2DDF1BCF9A4993590D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2846CD01292F659868199DCD /* Pods_backendless_server.framework */,
+				76A484024E77C8E8FF2F4ABC /* Pods_backendless_serverTests.framework */,
+				DE1AE9740349C23C3984636F /* Pods_backendless_serverUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		949081CE6CB1BE86F7B068CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8317205845553E22617C8528 /* Pods-backendless_server.debug.xcconfig */,
+				4EC45E6A74344B020DE3CE0A /* Pods-backendless_server.release.xcconfig */,
+				451EAE303CFBD7A2198644F6 /* Pods-backendless_serverTests.debug.xcconfig */,
+				43297AF3E447311ACBFFFF67 /* Pods-backendless_serverTests.release.xcconfig */,
+				481056A3F34430972411CE33 /* Pods-backendless_serverUITests.debug.xcconfig */,
+				A7C02F879F7052890FF10357 /* Pods-backendless_serverUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B548FA02009D88900C895D6 /* backendless_server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B548FC92009D88F00C895D6 /* Build configuration list for PBXNativeTarget "backendless_server" */;
+			buildPhases = (
+				032843C6E5F7ED7C16A999A6 /* [CP] Check Pods Manifest.lock */,
+				5B548F9D2009D88900C895D6 /* Sources */,
+				5B548F9E2009D88900C895D6 /* Frameworks */,
+				5B548F9F2009D88900C895D6 /* Resources */,
+				8817F9BBB0C8CB30395A0735 /* [CP] Embed Pods Frameworks */,
+				8D9D8D368C76CDDEED43FB73 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = backendless_server;
+			productName = backendless_server;
+			productReference = 5B548FA12009D88900C895D6 /* backendless_server.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B548FB42009D88E00C895D6 /* backendless_serverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B548FCC2009D88F00C895D6 /* Build configuration list for PBXNativeTarget "backendless_serverTests" */;
+			buildPhases = (
+				ADF6F0B3E2D4AE2DB2F4B058 /* [CP] Check Pods Manifest.lock */,
+				5B548FB12009D88E00C895D6 /* Sources */,
+				5B548FB22009D88E00C895D6 /* Frameworks */,
+				5B548FB32009D88E00C895D6 /* Resources */,
+				71CF0DD957BB20CCF0337624 /* [CP] Embed Pods Frameworks */,
+				23B95FCB5158F26E0780F99C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B548FB72009D88E00C895D6 /* PBXTargetDependency */,
+			);
+			name = backendless_serverTests;
+			productName = backendless_serverTests;
+			productReference = 5B548FB52009D88E00C895D6 /* backendless_serverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B548FBF2009D88F00C895D6 /* backendless_serverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B548FCF2009D88F00C895D6 /* Build configuration list for PBXNativeTarget "backendless_serverUITests" */;
+			buildPhases = (
+				347F127E89A29C61CA1ACA6D /* [CP] Check Pods Manifest.lock */,
+				5B548FBC2009D88F00C895D6 /* Sources */,
+				5B548FBD2009D88F00C895D6 /* Frameworks */,
+				5B548FBE2009D88F00C895D6 /* Resources */,
+				D84E745E03587DDD526EB792 /* [CP] Embed Pods Frameworks */,
+				26F7F9DCB385816111F72AC1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B548FC22009D88F00C895D6 /* PBXTargetDependency */,
+			);
+			name = backendless_serverUITests;
+			productName = backendless_serverUITests;
+			productReference = 5B548FC02009D88F00C895D6 /* backendless_serverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B548F992009D88800C895D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Harshul Shah";
+				TargetAttributes = {
+					5B548FA02009D88900C895D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C57WNCPU27;
+						ProvisioningStyle = Automatic;
+					};
+					5B548FB42009D88E00C895D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B548FA02009D88900C895D6;
+					};
+					5B548FBF2009D88F00C895D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B548FA02009D88900C895D6;
+					};
+				};
+			};
+			buildConfigurationList = 5B548F9C2009D88800C895D6 /* Build configuration list for PBXProject "backendless_server" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B548F982009D88800C895D6;
+			productRefGroup = 5B548FA22009D88900C895D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B548FA02009D88900C895D6 /* backendless_server */,
+				5B548FB42009D88E00C895D6 /* backendless_serverTests */,
+				5B548FBF2009D88F00C895D6 /* backendless_serverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B548F9F2009D88900C895D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B548FAF2009D88B00C895D6 /* LaunchScreen.storyboard in Resources */,
+				5B548FAC2009D88B00C895D6 /* Assets.xcassets in Resources */,
+				5B548FAA2009D88A00C895D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B548FB32009D88E00C895D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B548FBE2009D88F00C895D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		032843C6E5F7ED7C16A999A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-backendless_server-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23B95FCB5158F26E0780F99C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-backendless_serverTests/Pods-backendless_serverTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26F7F9DCB385816111F72AC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-backendless_serverUITests/Pods-backendless_serverUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		347F127E89A29C61CA1ACA6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-backendless_serverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71CF0DD957BB20CCF0337624 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-backendless_serverTests/Pods-backendless_serverTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8817F9BBB0C8CB30395A0735 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-backendless_server/Pods-backendless_server-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D9D8D368C76CDDEED43FB73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-backendless_server/Pods-backendless_server-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADF6F0B3E2D4AE2DB2F4B058 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-backendless_serverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D84E745E03587DDD526EB792 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-backendless_serverUITests/Pods-backendless_serverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B548F9D2009D88900C895D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B548FA72009D88A00C895D6 /* ViewController.swift in Sources */,
+				5B548FA52009D88900C895D6 /* AppDelegate.swift in Sources */,
+				5B548FD32009FF3C00C895D6 /* UpdateViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B548FB12009D88E00C895D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B548FBA2009D88E00C895D6 /* backendless_serverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B548FBC2009D88F00C895D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B548FC52009D88F00C895D6 /* backendless_serverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B548FB72009D88E00C895D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B548FA02009D88900C895D6 /* backendless_server */;
+			targetProxy = 5B548FB62009D88E00C895D6 /* PBXContainerItemProxy */;
+		};
+		5B548FC22009D88F00C895D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B548FA02009D88900C895D6 /* backendless_server */;
+			targetProxy = 5B548FC12009D88F00C895D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B548FA82009D88A00C895D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B548FA92009D88A00C895D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B548FAD2009D88B00C895D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B548FAE2009D88B00C895D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B548FC72009D88F00C895D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B548FC82009D88F00C895D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B548FCA2009D88F00C895D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8317205845553E22617C8528 /* Pods-backendless_server.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C57WNCPU27;
+				INFOPLIST_FILE = backendless_server/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.css.backendless-server";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Backendless/SDK/ios/backendless/include/Backendless-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5B548FCB2009D88F00C895D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EC45E6A74344B020DE3CE0A /* Pods-backendless_server.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C57WNCPU27;
+				INFOPLIST_FILE = backendless_server/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.css.backendless-server";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Backendless/SDK/ios/backendless/include/Backendless-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5B548FCD2009D88F00C895D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 451EAE303CFBD7A2198644F6 /* Pods-backendless_serverTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = backendless_serverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.css.backendless-serverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/backendless_server.app/backendless_server";
+			};
+			name = Debug;
+		};
+		5B548FCE2009D88F00C895D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43297AF3E447311ACBFFFF67 /* Pods-backendless_serverTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = backendless_serverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.css.backendless-serverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/backendless_server.app/backendless_server";
+			};
+			name = Release;
+		};
+		5B548FD02009D88F00C895D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 481056A3F34430972411CE33 /* Pods-backendless_serverUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = backendless_serverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.css.backendless-serverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = backendless_server;
+			};
+			name = Debug;
+		};
+		5B548FD12009D88F00C895D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C02F879F7052890FF10357 /* Pods-backendless_serverUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = backendless_serverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.css.backendless-serverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = backendless_server;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B548F9C2009D88800C895D6 /* Build configuration list for PBXProject "backendless_server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B548FC72009D88F00C895D6 /* Debug */,
+				5B548FC82009D88F00C895D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B548FC92009D88F00C895D6 /* Build configuration list for PBXNativeTarget "backendless_server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B548FCA2009D88F00C895D6 /* Debug */,
+				5B548FCB2009D88F00C895D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B548FCC2009D88F00C895D6 /* Build configuration list for PBXNativeTarget "backendless_serverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B548FCD2009D88F00C895D6 /* Debug */,
+				5B548FCE2009D88F00C895D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B548FCF2009D88F00C895D6 /* Build configuration list for PBXNativeTarget "backendless_serverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B548FD02009D88F00C895D6 /* Debug */,
+				5B548FD12009D88F00C895D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B548F992009D88800C895D6 /* Project object */;
+}
